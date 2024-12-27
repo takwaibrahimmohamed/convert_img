@@ -1,0 +1,61 @@
+/* fonts.css */
+
+/* Poppins Font Faces */
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Samsung Sharp Sans Font Faces */
+@font-face {
+  font-family: 'Samsung Sharp Sans';
+  src: url('./assets/fonts/samsungsharpsans.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Samsung Sharp Sans';
+  src: url('./assets/fonts/samsungsharpsans-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Global Styles */
+body {
+  overflow-x: hidden !important;
+}
+
+a {
+  text-decoration: none !important;
+}

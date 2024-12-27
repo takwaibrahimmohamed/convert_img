@@ -1,0 +1,33 @@
+.contact{
+    background-color:rgb(51,51,51);
+   
+}
+.contact_title{
+    font-size: 3rem;
+    font-family: "Poppins";
+    font-weight: 200;
+    color: whitesmoke;
+}
+.contact_title span{
+color: white;
+    font-weight: 700;
+}
+.Contact_cartst{
+    position: relative;
+    text-align: center;
+  padding:20px 20px;
+  padding-bottom: 0;
+ height: 300px !important;
+ max-height: 250px !important;
+ background-color: black !important;
+border: 2px solid wheat !important;
+border-radius: 15px !important;
+}
+.Contact_cartst .cart_1Img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: -10%;
+    transform: translateX(-50%);
+}

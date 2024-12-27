@@ -1,0 +1,74 @@
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    border-top:5px solid gray;
+}
+.foter_text_num{
+    color: gray;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: .8rem;
+    
+}
+.foter_num{
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: "Poppins";
+  
+    font-size: 1.2rem;
+    
+}
+.reserv{
+    text-align: center;
+    padding-top: 80px;
+    position: relative;
+    color: whitesmoke;
+    font-family: "Poppins";
+  
+    font-size: .8rem;
+}
+.footer .reserv::after{
+    content: "";
+    background-color: gray;
+    width: 50%;
+    height: 1.5px;
+    display: block;
+    bottom: 10%;
+    position: absolute;
+    left:-15%;
+}
+.footer .reserv::before{
+    content: "";
+    background-color: gray;
+    width: 48%;
+    height: 1.5px;
+    display: block;
+    bottom: 10%;
+    position: absolute;
+    right:-13%;
+    overflow: hidden;
+}
+@media (max-width:450px){
+    .reserv{
+        font-size: .6rem;
+        padding: 1rem 0;
+        margin: 1rem 0;
+    }
+    .footer .reserv::after{
+        display: none;
+    }
+    .footer .reserv::before{
+        display: none;
+    }
+}
+@media (min-width:451px) and (max-width:775px){
+    .footer .reserv::after{
+        width: 38%;
+    }
+    .footer .reserv::before{
+        width: 36%;
+    }
+}

@@ -1,0 +1,77 @@
+
+.navbar{
+    background-image: url('../../assets/images//04_base_menu.png') !important;
+    background-size: cover !important; 
+    background-position: center;
+height: 15%;
+ z-index: 115; 
+}
+.links{
+  border-right: 1px solid gray !important;
+
+}
+.link_cont{
+  color: #000000b5;
+  text-decoration: none;
+  font-family: "Poppins";
+    font-weight: 400;
+}
+.phone{
+  border: 1.4px solid #9FAD02 !important;
+  border-radius: 5PX !important;
+  height: fit-content;
+  font-family: "Poppins";
+  font-weight: 900 !important;   
+  color: black !important; 
+}
+.ReactFlagsSelect-module_flagsSelect__2pfa2{
+  padding-bottom: 0 !important;
+  margin: 0;
+}
+.ReactFlagsSelect-module_selectBtn__19wW7{
+  padding: 0 5px !important;
+  height: 27px;
+}
+@media (max-width:450px){
+ .brand{
+  width: 65%;
+ }
+ .mainLogo{
+  width: 100% !important;
+  height: 100% !important;
+ }
+ .navbar .nav_head{
+  align-items: end;
+  margin-top: 1rem;
+ }
+ .navbar #navbarNav{
+  background: white;
+    padding: 5px 5px 15px;
+    border-radius: 5px;
+ }
+
+}
+@media (min-width:451px) and (max-width:775px){
+  .navbar .nav_head{
+    align-items: end;
+    margin-top: 1rem;
+   }
+   .navbar #navbarNav{
+    background: white;
+      padding: 5px 5px 15px;
+      border-radius: 5px;
+   }
+}
+@media (min-width:1300px){
+  .navbar{
+    height: 17vh;
+  }
+  .mainLogo{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .link_cont{
+    font-size: 1.4rem;
+  }
+}
+
